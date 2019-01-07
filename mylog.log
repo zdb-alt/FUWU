@@ -3035,3 +3035,18 @@ java.net.ConnectException: Connection refused: connect
 2019-01-07 21:13:53.697  INFO 15512 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 2019-01-07 21:13:55.009  INFO 15512 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8999 (http)
 2019-01-07 21:13:55.037  INFO 15512 --- [main] com.course.Application                   : Started Application in 21.94 seconds (JVM running for 31.678)
+2019-01-07 22:33:30.435  INFO 15512 --- [http-nio-8999-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-07 22:33:30.440  INFO 15512 --- [http-nio-8999-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-07 22:33:30.590  INFO 15512 --- [http-nio-8999-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 145 ms
+2019-01-07 22:33:31.831  INFO 15512 --- [http-nio-8999-exec-10] com.course.controller.UserManager        : 查看到的结果是1
+2019-01-07 22:33:35.050  INFO 15512 --- [http-nio-8999-exec-9] com.course.controller.UserManager        : 查看到的结果是0
+2019-01-07 22:33:40.202  INFO 15512 --- [http-nio-8999-exec-8] com.course.controller.UserManager        : cookies验证通过
+2019-01-07 22:33:40.320  INFO 15512 --- [http-nio-8999-exec-8] com.course.controller.UserManager        : 添加用户的数量是:1
+2019-01-07 22:33:47.619  INFO 15512 --- [http-nio-8999-exec-7] com.course.controller.UserManager        : cookies验证通过
+2019-01-07 22:33:47.716  INFO 15512 --- [http-nio-8999-exec-7] com.course.controller.UserManager        : getUserInfo获取到的用户数量是1
+2019-01-07 22:33:47.902  INFO 15512 --- [http-nio-8999-exec-6] com.course.controller.UserManager        : cookies验证通过
+2019-01-07 22:33:47.913  INFO 15512 --- [http-nio-8999-exec-6] com.course.controller.UserManager        : getUserInfo获取到的用户数量是7
+2019-01-07 22:33:54.050  INFO 15512 --- [http-nio-8999-exec-5] com.course.controller.UserManager        : cookies验证通过
+2019-01-07 22:33:54.158  INFO 15512 --- [http-nio-8999-exec-5] com.course.controller.UserManager        : 更新数据的条目数为:1
+2019-01-07 22:33:57.259  INFO 15512 --- [http-nio-8999-exec-4] com.course.controller.UserManager        : cookies验证通过
+2019-01-07 22:33:57.335  INFO 15512 --- [http-nio-8999-exec-4] com.course.controller.UserManager        : 更新数据的条目数为:1
